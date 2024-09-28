@@ -26,7 +26,7 @@ global.caption = "Nextronize MD" || global.caption || "© GlobalTechInfo"
 
 global.devs = "917994107442" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= "917994107442" ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923xxx Your Number";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917994107442"
 
 
 
